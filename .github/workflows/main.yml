@@ -55,7 +55,7 @@ jobs:
     # Paso 7: Agregar un servicio adicional al cliente
     - name: Agregar servicio al cliente
       run: |
-        python gestor_clientes.py agregar "IvanZarate" "Internet 1000MB"
+        python gestor_clientes.py agregar "IvanZarate" "Tv"
     
     # Paso 8: Verificar que el servicio se agregó correctamente
     - name: Verificar servicio agregado
